@@ -24,26 +24,26 @@ function App() {
     }
   };
 
-  //return (
-  //  <div>
-  //    {/*<Header />
-  //    <Routes>
-  //      <Route path="/Admin" element={<Admin fetchProductById={fetchProductById} />} />
-  //      <Route path="/" element={<ShowLaptops />} />
-  //      <Route path="/HomePage" element={<ShowLaptops />} />
-  //      <Route path="/detail/:id" element={<Detail />} />
-  //      <Route path="/AddProduct" element={<AddProduct />} />
-  //      <Route path="/EditProduct/:id" element={<EditProduct />} />
-  //      <Route path="/checkout" element={<Checkout />} /> 
-  //    </Routes>*/}
-  //    {/*<HotelDetail />*/}
-  //  </div>
-  //);
-
   return (
-    //<Products/>
-    <Lazada/>
-  )
+    <div>
+      <Header />
+      <Routes>
+        <Route path="/Admin" element={<Admin fetchProductById={fetchProductById} />} />
+        <Route path="/" element={<ShowLaptops />} />
+        <Route path="/HomePage" element={<ShowLaptops />} />
+        <Route path="/detail/:id" element={<Detail />} />
+        <Route path="/AddProduct" element={<AddProduct />} />
+        <Route path="/EditProduct/:id" element={<EditProduct />} />
+        <Route path="/checkout" element={<Checkout />} /> 
+      </Routes>
+      {/*<HotelDetail />*/}
+    </div>
+  );
+
+  //return (
+  //  //<Products/>
+  //  <Lazada/>
+  //)
 }
 
 export default App;
