@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.2s linear;
+    outline: none;
+    border: none;
+    scroll-behavior: smooth;
+  }
+  /* adding a variable */
+  :root {
+    --pink: #e84393;
+  }
+  
+  /* Section-Home */
+  
+  /* Icons section */
+  .icons-container {
+    background: #f0f0f0;
+    min-height: fit-content;
+    display: flex;
+    gap: 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .icons-container .icon {
+    background: white;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 15px 20px;
+    width: 350px;
+  }
+  .icon .info p {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 1.3em;
+    color: #333;
+  }
+  .icon .info small {
+    color: var(--pink);
+  }
+  @media (max-width: 900px) {
+    .icons-container {
+      justify-content: center;
+    }
+  }
+  @media (max-width: 550px) {
+    .icons-container .icon {
+      width: 90vw;
+    }
+    .icon .info small {
+      font-size: 1.2em;
+    }
+    .icon .info p {
+      font-size: 1.5em;
+    }
+  }
+  /* Start product section */
+  
+  /* start Review */
+  
+  /* contact section */
+  
+  /* Start footer  */
+  
+  

@@ -1,0 +1,113 @@
+section {
+    min-height: 100vh;
+    width: 100%;
+    padding: 2rem 9%;
+  }
+  .home {
+    background: url("images/home-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+  }
+  .home .content {
+    max-width: 40em;
+  }
+  .home .content h2 {
+    font-size: 4.5em;
+    color: #333;
+  }
+  .home .content h3 {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+  }
+  .home .content p {
+    color: #333;
+  }
+  .btn {
+    display: inline-block;
+    margin-top: 2em;
+    color: white;
+    background: #333;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background: rgb(172, 144, 149);
+  }
+  .heading {
+    color: #333;
+    background: rgba(255, 51, 153, 0.05);
+    text-align: center;
+    font-size: 4em;
+    padding: 0.5em;
+  
+    margin: 1em 0;
+  }
+  .heading span {
+    color: var(--pink);
+    padding-right: 0.5em;
+  }
+  .about .row {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    padding: 2em 0;
+    padding-bottom: 3em;
+  }
+  
+  .video-container {
+    flex: 1 1 40em;
+    position: relative;
+  }
+  .video-container video {
+    width: 100%;
+    border: 1.5em solid white;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  .video-container h3 {
+    position: absolute;
+  
+    top: 50%;
+    transform: translatey(-50%);
+    font-size: 3em;
+    color: #333;
+    background: #fff;
+    padding: 0.4em 0.8em;
+    text-align: center;
+    width: 100%;
+    mix-blend-mode: screen;
+  }
+  .about .row .content {
+    flex: 1 1 40em;
+  }
+  .about .row .content h1 {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 1em;
+  }
+  .about .row .content p {
+    font-size: 1.2em;
+    color: #999;
+    margin: 1em 0;
+  }
+  @media (max-width: 700px) {
+    .video-container h3 {
+      font-size: 1.8em;
+    }
+    .heading {
+      font-size: 2.5em;
+    }
+    .about .row .content h1 {
+      font-size: 2.5em;
+    }
+    @media (max-width: 300px) {
+      .video-container h3 {
+        font-size: 1.5em;
+      }
+    }
+  }

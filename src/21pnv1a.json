@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Xiêng Bình An",
+    "gender": "Nam",
+    "hometown": "Kon Tum",
+    "phone": "0123456789"
+  },
+  {
+    "id": 2,
+    "name": "Nguyễn Thị Bính",
+    "gender": "Nữ",
+    "hometown": "Hà Tĩnh",
+    "phone": "0987654321"
+  },
+  {
+    "id": 3,
+    "name": "Trần Văn Thắng",
+    "gender": "Nam",
+    "hometown": "Đà Nẵng",
+    "phone": "0123456789"
+  },
+  {
+    "id": 4,
+    "name": "Đinh Thị Cẩm Ngọc",
+    "gender": "Nữ",
+    "hometown": "Bình Định",
+    "phone": "0987654321"
+  },
+  {
+    "id": 5,
+    "name": "Phạm Văn Nhanh",
+    "gender": "Nam",
+    "hometown": "Huế",
+    "phone": "0123456789"
+  }
+]
